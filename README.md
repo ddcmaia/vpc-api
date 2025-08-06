@@ -13,6 +13,8 @@ create VPCs with arbitrary subnet CIDRs and stores the metadata in DynamoDB.
 
 2. **Create the S3 bucket to store the state**
 
+_Note: The example uses the bucket name `tests-maia`. Replace it with your preferred bucket name._
+
    ```bash
    aws s3api create-bucket --bucket tests-maia --region us-east-1
    ```
