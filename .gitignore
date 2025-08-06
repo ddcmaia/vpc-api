@@ -1,0 +1,3 @@
+.terraform
+.terraform*
+modules/lambda_function/tmp
